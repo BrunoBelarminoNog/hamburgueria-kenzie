@@ -1,0 +1,48 @@
+.search-products {
+    height: 100px;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    div {
+        display: flex;
+        width: 80%;
+        max-width: 400px;
+        height: 30px;
+
+        input {
+            width: 80%;
+            height: 100%;
+
+            font-size: .8rem;
+            border: 1px solid #888;
+            outline: 0;
+            border-right: 0;
+            padding: 18px;
+            border-radius: 8px 0 0 8px;
+        }
+
+        button {
+            width: 20%;
+            height: 100%;
+
+            font-size: 1rem;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0 8px 8px 0;
+            padding: 18px;
+            border: 1px solid #888;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(220, 220, 220, 0.651);
+            }
+        }
+    }
+}

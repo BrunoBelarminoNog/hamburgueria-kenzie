@@ -1,0 +1,32 @@
+.shop-cart {
+    width: 100%;
+    max-width: 1040px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    .quantity-items {
+        padding: 1rem;
+
+        .cart-empty{
+            margin: 1rem 0 2rem;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .cart-subtotal {
+            width: 40%;
+            margin: 0 0 1rem auto;
+            text-align: right;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #444;
+            padding-top: .5rem;
+            border-top: 1px solid #d3d3d3;
+        }
+    }
+}
